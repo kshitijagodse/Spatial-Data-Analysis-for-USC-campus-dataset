@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>MyHome</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289951, 34.031292</coordinates></Point>
+</Placemark>
+<Placemark><name>LyonCenter</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288428, 34.024520</coordinates></Point>
+</Placemark>
+<Placemark><name>VKCLibrary</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283465, 34.021211</coordinates></Point>
+</Placemark>
+<Placemark><name>BridgeHall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285741, 34.018981</coordinates></Point>
+</Placemark>
+<Placemark><name>SALLab</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289485, 34.019707</coordinates></Point>
+</Placemark>
+<Placemark><name>Jeff_Ver</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291336, 34.025359</coordinates></Point>
+</Placemark>
+<Placemark><name>Ver_Expo</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291046, 34.018690</coordinates></Point>
+</Placemark>
+<Placemark><name>Expo_Figue</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282399, 34.018450</coordinates></Point>
+</Placemark>
+<Placemark><name>Figue_Jeff</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280243, 34.021856</coordinates></Point>
+</Placemark>
+
+<Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Absolute</name>
+      <visibility>1</visibility>
+      <styleUrl>#transBluePoly</styleUrl>
+      <Polygon>
+        <tessellate>1</tessellate>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              		 -118.282399,34.01845 
+           			 -118.291046,34.01869
+            	     -118.291336,34.025359
+                     -118.289951,34.031292
+                     -118.280243,34.021856
+                     -118.282399,34.01845
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+<Style id="transPurpleLineGreenPoly">
+      <LineStyle>
+        <color>7fff00ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>Absolute</name>
+      <visibility>1</visibility>
+      <description>Transparent purple line</description>
+      <styleUrl>#transPurpleLineGreenPoly</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -118.289951,34.031292 -118.291336,34.025359
+          -118.289951,34.031292 -118.288428,34.02452 
+          -118.289951,34.031292 -118.289485,34.019707     
+        </coordinates>
+      </LineString>
+    </Placemark>
+</Document></kml>
